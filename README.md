@@ -19,4 +19,4 @@ The DDI-100 dataset from Machine Intelligence Team was used for this study. They
     python analyse.py --data_dir dataset/
 
 ### Visualise
-    python visualise.py --result_dir results
+    python visualise.py --result_dir results/
