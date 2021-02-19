@@ -1,0 +1,8 @@
+requests==2.25.1
+matplotlib==3.3.4
+tqdm==4.56.0
+numpy==1.20.0
+tesserocr==2.5.1
+opencv_python==4.5.1.48
+Pillow==8.1.0
+python_Levenshtein==0.12.2
