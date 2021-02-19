@@ -109,6 +109,8 @@ if __name__ == '__main__':
     plt.xticks([1, 2, 3], ['tessdata', 'tessdata_best', 'tessdata_fast'])
     plt.grid(True)
     plt.show()
+    plt.xlabel('Language data')
+    plt.ylabel('Score')
     plt.savefig('boxplot.png')
 
     fig, ax = plt.subplots(figsize=(10, 5))
@@ -117,6 +119,8 @@ if __name__ == '__main__':
     plt.xticks([1, 2, 3], ['tessdata', 'tessdata_best', 'tessdata_fast'])
     plt.grid(True)
     plt.show()
+    plt.xlabel('Language data')
+    plt.ylabel('Time (s)')
     plt.savefig('time.png')
 
     fig = plt.figure(figsize = (10, 5))
@@ -125,4 +129,6 @@ if __name__ == '__main__':
     plt.ylim(0.85, 0.95)
     plt.grid(True)
     plt.show() 
+    plt.xlabel('Language data')
+    plt.ylabel('Score')
     plt.savefig('accuracy.png')
